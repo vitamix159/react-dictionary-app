@@ -30,12 +30,12 @@ export default function Dictionary() {
 
 
     return (
-    <div className="Dictionary mt-5">
+    <div className="Dictionary mt-5 mb-3">
         <form onSubmit={search}>
             <input 
             type="search" 
             onChange={handleKeyword} />
-            <button className="btn btn-warning ms-3 mb-5">Search</button>
+            <button className="btn btn-warning ms-3">Search</button>
             <Results results={results} />
         </form>  
     </div>

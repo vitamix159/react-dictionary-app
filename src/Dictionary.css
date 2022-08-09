@@ -23,12 +23,14 @@
     padding: 4px;
     font-size: 12px;
     border-radius: 6px;
-    background: #cc68ff;
+    background-color: #D79BF7;
+    border-color: transparent;
 }
 
 .Dictionary button:hover {
-    background-color: #d79bf7;
+    background-color: #be6de9;
     border: #fff;
+    transition: all 150ms ease-in-out;
 }
 
 .introduction {

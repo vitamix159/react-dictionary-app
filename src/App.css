@@ -1,3 +1,11 @@
+body {
+    background-color: #f0e1f7;
+}
+
+a {
+    color: #cc68ff
+}
+
 .App-header {
     margin-top: 30px;
     text-align: center;
@@ -11,4 +19,8 @@
 .App-footer {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+
+img {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }

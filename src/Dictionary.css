@@ -1,21 +1,26 @@
 .Dictionary section {
+    display: block;
     background-color: #fff;
-    padding: 30px;
+    padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 50%;
 }
 
 .Dictionary input {
-    width: 100%;
-    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
     border-radius: 6px;
+    font-family: 'rotobo';
 }
 
 .Dictionary button {
-    width: 100%;
-    margin-top: 10px;
-   padding: 4px;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 4px;
     font-size: 12px;
     border-radius: 6px;
     background: #cc68ff;
@@ -24,4 +29,10 @@
 .Dictionary button:hover {
     background-color: #d79bf7;
     border: #fff;
+}
+
+.introduction {
+    text-align: center;
+    font-family: 'black_jackregular';
+    font-size: 24px;
 }

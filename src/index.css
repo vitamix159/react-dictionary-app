@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'black_jackregular';
+  src: url('./fonts/blackjack-webfont.woff') format('woff');  
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-Thin-webfont.woff') format('woff');    
+  font-weight: lighter;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-ThinItalic-webfont.woff') format('woff');    
+  font-weight:lighter;
+  font-style: italic;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-Regular-webfont.woff') format('woff');    
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-Medium-webfont.woff') format('woff');    
+  font-weight: bolder;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-MediumItalic-webfont.woff') format('woff');    
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+
